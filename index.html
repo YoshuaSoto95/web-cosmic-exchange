@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Exchange | Crypto Exchange</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="img-background" id="" stars-background>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-planet-ringed"></i>
+                <span>Cosmic Exchange</span>
+            </div>
+            <div class="toggle-btn">
+                <div class="toggle-wrapper">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav-container">
+                <ul class="nav-links">
+                    <li><a href="#futuros">Futuros</a></li>
+                    <li><a href="#spot">Spot</a></li>
+                    <li><a href="#p2p">P2P</a></li>
+                    <li><a href="#tokens">Tokens</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="login-btn">Iniciar Sesión</button>
+                    <button class="register-btn">Registrarse</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="stars-background"></div>
+            <div class="hero-main">
+                <!-- Contenido del hero -->
+            <div class="hero-content">
+                <h1>Explora el universo de las criptomonedas con seguridad y velocidad</h1>
+                <p>Compra, vende e intercambia criptomonedas de forma rápida y segura con tecnología de última generación. Nuestra plataforma ofrece transacciones instantáneas, bajas comisiones y máxima seguridad para que operes con confianza.</p>
+                <div class="cta-buttons">
+                    <button class="register-cta">Compra Bitcoin Spot</button>
+                    <button class="explore-cta">Mercado de Futuros</button>
+                </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                </div>
+            </div>
+                <!-- Imagen del hero -->
+            <div class="hero-image">
+                    <img src="" alt="Astronauta con holograma">
+                </div>
+            </div>
+            <div class="hero-main-2">
+                <!-- Crypto Cards al final del hero -->
+                <div class="cards-container">
+                    <div class="crypto-card" data-crypto="bitcoin">
+                        <div class="card-header">
+                            <i class="fab fa-bitcoin"></i>
+                            <h3>Bitcoin</h3>
+                            <span class="symbol">BTC</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="price">Cargando...</p>
+                            <p class="change">...</p>
+                        </div>
+                    </div>
+
+                    <div class="crypto-card" data-crypto="ethereum">
+                        <div class="card-header">
+                            <i class="fab fa-ethereum"></i>
+                            <h3>Ethereum</h3>
+                            <span class="symbol">ETH</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="price">Cargando...</p>
+                            <p class="change">...</p>
+                        </div>
+                    </div>
+
+                    <div class="crypto-card" data-crypto="solana">
+                        <div class="card-header">
+                            <i class="fas fa-sun"></i>
+                            <h3>Solana</h3>
+                            <span class="symbol">SOL</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="price">Cargando...</p>
+                            <p class="change">...</p>
+                        </div>
+                    </div>
+
+                    <div class="crypto-card" data-crypto="dogecoin">
+                        <div class="card-header">
+                            <i class="fas fa-dog"></i>
+                            <h3>Dogecoin</h3>
+                            <span class="symbol">DOGE</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="price">Cargando...</p>
+                            <p class="change">...</p>
+                        </div>
+                    </div>
+
+                    <div class="crypto-card" data-crypto="pepe">
+                        <div class="card-header">
+                            <i class="fas fa-frog"></i>
+                            <h3>Pepe</h3>
+                            <span class="symbol">PEPE</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="price">Cargando...</p>
+                            <p class="change">...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Section Futures -->
+    <div class="img-background-futures">
+        <section class="futures-section"  id="futuros">
+            <div class="futures-header reveal">
+                <h2>Mercado de Futuros</h2>
+                <p>Opera con hasta 100x de apalancamiento en las principales criptomonedas</p>
+            </div>
+
+            <!-- Futures Trading Table -->
+            <div class="futures-table-container">
+                <table class="futures-table">
+                    <thead>
+                        <tr>
+                            <th>Par</th>
+                            <th>Último Precio</th>
+                            <th>Cambio 24h</th>
+                            <th>Volumen 24h</th>
+                            <th>Apalancamiento Máx.</th>
+                            <th>Operación</th>
+                        </tr>
+                    </thead>
+                    <tbody id="futures-data">
+                        <!-- Los datos se cargarán dinámicamente -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Trading Features -->
+            <div class="trading-features">
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Análisis Avanzado</h3>
+                    <p>Herramientas profesionales de trading y análisis técnico</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Ejecución Ultra Rápida</h3>
+                    <p>Órdenes ejecutadas en milisegundos</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Seguridad Máxima</h3>
+                    <p>Fondos asegurados y sistema anti-manipulación</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Section Spot -->
+    <div class="img-background-spot">
+        <section class="spot-section" id="spot">
+            <div class="spot-header">
+                <h2>Mercado Spot</h2>
+                <p>Compra y vende criptomonedas de forma instantánea con las mejores tasas del mercado</p>
+            </div>
+
+            <div class="spot-carousel">
+                <div class="spot-track">
+                    <!-- El contenido se generará dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Section P2P -->
+    <div class="img-background-p2p">
+        <section class="p2p-section" id="p2p">
+            <div class="p2p-header">
+                <h2>Mercado P2P</h2>
+                <p>Compra y vende criptomonedas directamente con otros usuarios de forma segura</p>
+            </div>
+
+            <div class="p2p-benefits">
+                <!-- Tarjeta de Métodos de Pago -->
+                <div class="p2p-card reveal reveal-delay-1">
+                    <div class="card-icon">
+                        <i class="fas fa-money-bill-transfer"></i>
+                    </div>
+                    <h3>Múltiples Métodos de Pago</h3>
+                    <div class="payment-methods">
+                        <i class="fas fa-building-columns" title="Transferencia Bancaria"></i>
+                        <i class="fab fa-paypal" title="PayPal"></i>
+                        <i class="fas fa-mobile-alt" title="Pago Móvil"></i>
+                        <i class="fas fa-wallet" title="Billeteras Digitales"></i>
+                        <i class="fas fa-money-bill-wave" title="Efectivo"></i>
+                    </div>
+                    <p>Más de 300 métodos de pago disponibles para que elijas la opción que mejor se adapte a tus necesidades.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Transferencias bancarias</li>
+                        <li><i class="fas fa-check"></i> Pagos móviles</li>
+                        <li><i class="fas fa-check"></i> Billeteras digitales</li>
+                        <li><i class="fas fa-check"></i> Tarjetas de débito/crédito</li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta de Seguridad y Garantía -->
+                <div class="p2p-card reveal reveal-delay-2">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Comercio Seguro</h3>
+                    <div class="security-features">
+                        <span class="security-badge">
+                            <i class="fas fa-lock"></i> Sistema Escrow
+                        </span>
+                        <span class="security-badge">
+                            <i class="fas fa-user-shield"></i> KYC Verificado
+                        </span>
+                    </div>
+                    <p>Sistema de custodia segura que protege cada transacción P2P con tecnología blockchain.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Custodia segura</li>
+                        <li><i class="fas fa-check"></i> Verificación de identidad</li>
+                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        <li><i class="fas fa-check"></i> Disputas asistidas</li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta de Comerciante Estrella -->
+                <div class="p2p-card merchant-card reveal reveal-delay-3">
+                    <div class="card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Comerciante Estrella</h3>
+                    <div class="merchant-badge">
+                        <i class="fas fa-crown"></i>
+                        <span>VIP Trader</span>
+                    </div>
+                    <p>Conviértete en un comerciante estrella y desbloquea beneficios exclusivos.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Comisiones reducidas</li>
+                        <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                        <li><i class="fas fa-check"></i> Mayor límite de transacción</li>
+                        <li><i class="fas fa-check"></i> Badge verificado</li>
+                    </ul>
+                    <button class="login-btn upgrade-btn">Convertirse en VIP</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Section Token -->
+    <div class="img-background-token">
+        <section class="token-section" id="tokens">
+            <div class="token-header">
+                <h2>Crea tu Token en Solana</h2>
+                <p>Lanza tu proyecto crypto en minutos con la red más rápida y económica</p>
+            </div>
+
+            <div class="token-container">
+                <!-- Token Creation Card -->
+                <div class="token-creation-card reveal">
+                    <div class="card-content">
+                        <div class="solana-badge">
+                            <img src="https://assets.coingecko.com/coins/images/4128/small/solana.png" alt="Solana">
+                            <span>Powered by Solana</span>
+                        </div>
+                        
+                        <h3>Crea tu Token en 3 Pasos</h3>
+                        
+                        <div class="steps-container">
+                            <div class="step-item">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Configura tu Token</h4>
+                                    <p>Define nombre, símbolo y suministro total de tu token</p>
+                                    <i class="fas fa-coins step-icon"></i>
+                                </div>
+                            </div>
+
+                            <div class="step-item">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Personaliza</h4>
+                                    <p>Establece permisos, mint, burn y características especiales</p>
+                                    <i class="fas fa-sliders-h step-icon"></i>
+                                </div>
+                            </div>
+
+                            <div class="step-item">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Despliega</h4>
+                                    <p>Lanza tu token a la red Solana con un solo clic</p>
+                                    <i class="fas fa-rocket step-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="token-features">
+                            <div class="feature">
+                                <i class="fas fa-bolt"></i>
+                                <span>Transacciones Instantáneas</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>Comisiones Mínimas</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Máxima Seguridad</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-code"></i>
+                                <span>Smart Contracts</span>
+                            </div>
+                        </div>
+
+                        <button class="create-token-btn login-btn">
+                            Crear Token Ahora
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Token Stats -->
+                <div class="token-stats">
+                    <div class="stat-card">
+                        <div class="stat-value">65K+</div>
+                        <div class="stat-label">Tokens Creados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">0.00025 SOL</div>
+                        <div class="stat-label">Costo por Transacción</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">3,000+</div>
+                        <div class="stat-label">TPS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Section Blog -->
+    <div class="img-background-blog">
+        <section class="blog-section" id="blog">
+            <div class="blog-header">
+                <h2>Últimas Noticias</h2>
+                <p>Mantente informado sobre las últimas tendencias en el mundo crypto</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Blog Card 1 -->
+                <article class="blog-card reveal reveal-delay-1">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="blog-category">Tecnología</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>El Futuro de las Finanzas Descentralizadas</h3>
+                        <h4>DeFi 2.0: La Nueva Era del Ecosistema Financiero</h4>
+                        <p>Descubre cómo la tecnología blockchain está revolucionando el sistema financiero tradicional y creando nuevas oportunidades de inversión descentralizada...</p>
+                        <button class="login-btn read-more-btn">
+                            Leer más
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Card 2 -->
+                <article class="blog-card reveal reveal-delay-2">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="blog-category">Trading</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Estrategias Avanzadas de Trading</h3>
+                        <h4>Guía Completa para Trading de Futuros</h4>
+                        <p>Aprende las mejores estrategias y técnicas para maximizar tus beneficios en el trading de futuros crypto mientras minimizas los riesgos...</p>
+                        <button class="login-btn read-more-btn">
+                            Leer más
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Card 3 -->
+                <article class="blog-card reveal reveal-delay-3">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="blog-category">Seguridad</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Protege tus Activos Digitales</h3>
+                        <h4>Mejores Prácticas de Seguridad en Crypto</h4>
+                        <p>Conoce las medidas de seguridad esenciales para proteger tus criptomonedas y mantener tus inversiones seguras en el mundo digital...</p>
+                        <button class="login-btn read-more-btn">
+                            Leer más
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Card 4 -->
+                <article class="blog-card reveal reveal-delay-4">
+                    <div class="blog-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="blog-category">Análisis</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Análisis Técnico en Crypto</h3>
+                        <h4>Patrones y Señales Clave para Traders</h4>
+                        <p>Domina el arte del análisis técnico en el mercado de criptomonedas y aprende a identificar las mejores oportunidades de trading...</p>
+                        <button class="login-btn read-more-btn">
+                            Leer más
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <!-- Logo y Descripción -->
+            <div class="footer-brand reveal reveal-delay-1">
+                <div class="footer-logo">
+                    <i class="fas fa-planet-ringed"></i>
+                    <span>Cosmic Exchange</span>
+                </div>
+                <p>Explora el universo de las criptomonedas con la plataforma más avanzada y segura del mercado.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Productos -->
+            <div class="footer-links reveal reveal-delay-2">
+                <h3>Productos</h3>
+                <ul>
+                    <li><a href="#spot">Spot Trading</a></li>
+                    <li><a href="#futuros">Futuros</a></li>
+                    <li><a href="#p2p">P2P Trading</a></li>
+                    <li><a href="#tokens">Crear Token</a></li>
+                    <li><a href="#">Staking</a></li>
+                    <li><a href="#">Launchpad</a></li>
+                </ul>
+            </div>
+
+            <!-- Servicios -->
+            <div class="footer-links reveal reveal-delay-3">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                    <li><a href="#">Academia Crypto</a></li>
+                    <li><a href="#">Afiliados</a></li>
+                    <li><a href="#">API Trading</a></li>
+                    <li><a href="#">Fees</a></li>
+                    <li><a href="#">Límites y Verificación</a></li>
+                </ul>
+            </div>
+
+            <!-- Soporte -->
+            <div class="footer-links reveal reveal-delay-4">
+                <h3>Soporte</h3>
+                <ul>
+                    <li><a href="#">Centro de Soporte</a></li>
+                    <li><a href="#">Chat 24/7</a></li>
+                    <li><a href="#">Reportar Bug</a></li>
+                    <li><a href="#">Sugerencias</a></li>
+                    <li><a href="#">Estado del Sistema</a></li>
+                </ul>
+            </div>
+
+            <!-- Contacto -->
+            <div class="footer-contact">
+                <h3>Contáctanos</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> support@cosmicexchange.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Crypto Valley, Switzerland</p>
+                </div>
+                <div class="app-downloads">
+                    <h4>Descarga nuestra app</h4>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>App Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-legal">
+                    <a href="#">Términos de Servicio</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Aviso Legal</a>
+                    <a href="#">Cookies</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Cosmic Exchange. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
