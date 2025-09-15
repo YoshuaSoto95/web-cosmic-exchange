@@ -1,6 +1,6 @@
 # 🚀 Cosmic Exchange - Plataforma de Trading de Criptomonedas
 
-![Cosmic Exchange Banner](./assets/images/banner.png)
+![Cosmic Exchange Banner](banner.png)
 
 ## 📝 Descripción
 Cosmic Exchange es una moderna plataforma de trading de criptomonedas con un diseño espacial único. El proyecto demuestra una interfaz de usuario intuitiva y responsive que permite a los usuarios explorar diferentes servicios de trading de criptomonedas.
